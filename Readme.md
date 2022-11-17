@@ -2,4 +2,4 @@ O presente projeto tem como finalidade simplificar a criação de menus, de form
 
 Com a main.cpp disponibilizada nesta pasta quem testar, irá obter o seguinte resultado:
 
-<img src="https://github.com/NicolasFCruvinel/Menu_cpp/edit/main/Captura de tela de 2022-11-17 19-45-20.png">
+<img src="https://github.com/NicolasFCruvinel/Menu_cpp/blob/main/Captura%20de%20tela%20de%202022-11-17%2019-45-20.png"/>
