@@ -8,11 +8,16 @@ int main() {
   // área de cabeçalho
   char *cabecalho;
   cabecalho = (char *) malloc(sizeof(char));
-  cabecalho = "Escolha uma das opções abaixo"; // Entrada com o texto de cabeçalho
+  cabecalho = "Cabeçalho Teste "; // Entrada com o texto de cabeçalho
   
-  string opc[] = {"opção 1", "opção 2", "opção 3", "opc 4"};
+  //área das opções do menu
+  string opc[] = {"opção 1", 
+                  "opção 2", 
+                  "opção 3", 
+                  "opc 4", 
+                  "opc 5", 
+                  "opc 6", 
+                  "\0"};        //condição final do vetor, IMPORTANTE para cálculo do comprimento do vetor.
   
-  int sizeOpc = sizeof(opc)/sizeof(string);
-  
-  montarMenu(cabecalho, opc, sizeOpc);
+  montarMenu(cabecalho, opc); //função responsável por montar o Menu
 }
